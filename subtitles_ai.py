@@ -79,7 +79,7 @@ REAL_FAMILY_ALIAS = {
     "FF Dusha": "FF Dusha Arabic",
 }
 
-STYLE_PROFILE_VERSION = 3
+STYLE_PROFILE_VERSION = 4
 
 DEFAULT_CELESTIAL_PROFILE = {
     "profile_version": STYLE_PROFILE_VERSION,
@@ -141,7 +141,7 @@ DEFAULT_CELESTIAL_PROFILE = {
                     "Narrator - Top": {"font": "Bahij Nassim", "fs_h": 9.2593, "out_h": 0.2315, "shd_h": 0.0926, "mv_h": 2.7778, "ml_w": 1.5625, "mr_w": 1.5625, "sx": 90, "sy": 100, "an": 8, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H00112F4A", "back_c": "&H7F000000"},
                     "Note": {"font": "Bahij Mitra", "fs_h": 6.9444, "out_h": 0.2778, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 0.7812, "mr_w": 0.7812, "sx": 100, "sy": 100, "an": 8, "bold": 0, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H00000000"},
                     "Signs": {"font": "Bahij Mitra", "fs_h": 6.9444, "out_h": 0.1852, "shd_h": 0.0, "mv_h": 0.0, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 5, "bold": 0, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H00000000"},
-                    "Rights": {"font": "Hayah", "fs_h": 7.4074, "out_h": 0.0926, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 1.0417, "mr_w": 1.0417, "sx": 100, "sy": 100, "an": 9, "bold": 0, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H00322F2A"},
+                    "Rights": {"font": "Bahij Tanseek Pro", "fs_h": 6.4815, "out_h": 0.3704, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 1.0417, "mr_w": 1.0417, "sx": 100, "sy": 100, "an": 9, "bold": -1, "pri": "&H00FFF8F7", "out_c": "&H00260ABC", "back_c": "&H00322F2A"},
                     "OP-Ara": {"font": "Hayah", "fs_h": 10.1852, "out_h": 0.1852, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 2, "bold": 0, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H00FFFFFF"},
                     "OP-Rom": {"font": "Sovba Regular", "fs_h": 7.4074, "out_h": 0.1852, "shd_h": 0.0, "mv_h": 2.7778, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 8, "bold": 0, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H00FFFFFF"},
                     "ED-Ara": {"font": "Hayah", "fs_h": 10.1852, "out_h": 0.2778, "shd_h": 0.0, "mv_h": 3.2407, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 2, "bold": 0, "pri": "&H00E2F4F3", "out_c": "&H00000000", "back_c": "&H00000000"},
@@ -150,20 +150,21 @@ DEFAULT_CELESTIAL_PROFILE = {
             },
             "bleach_style": {
                 "layout_res_ratio": None,
-                "blur_edge_h_ratio": 0.002778,
+                "blur_edge_h_ratio": 0.0,
                 "collision_mode": "inline_an8",
                 "main_style_name": "Main",
                 "top_style_name": "Top",
                 "event_margin_v_overrides_h_pct": {},
                 "styles": {
-                    "Main": {"font": "Bahij Nassim", "fs_h": 10.2778, "out_h": 0.2346, "shd_h": 0.1852, "mv_h": 2.7778, "ml_w": 0.0, "mr_w": 0.0, "sx": 95, "sy": 100, "an": 2, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H00313131", "back_c": "&HC0636363"},
-                    "Top": {"font": "Bahij Nassim", "fs_h": 10.2778, "out_h": 0.2346, "shd_h": 0.1852, "mv_h": 2.7778, "ml_w": 0.0, "mr_w": 0.0, "sx": 95, "sy": 100, "an": 8, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H00313131", "back_c": "&HC0636363"},
+                    "Main": {"font": "Bahij Nassim", "fs_h": 9.7222, "out_h": 0.2778, "shd_h": 0.0185, "mv_h": 3.2407, "ml_w": 1.0417, "mr_w": 1.0417, "sx": 95, "sy": 100, "an": 2, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H0F000000", "back_c": "&H00000000"},
+                    "Top": {"font": "Bahij Nassim", "fs_h": 9.7222, "out_h": 0.2778, "shd_h": 0.0185, "mv_h": 3.2407, "ml_w": 1.0417, "mr_w": 1.0417, "sx": 95, "sy": 100, "an": 8, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H0F000000", "back_c": "&H00000000"},
+                    "Main (Blue)": {"font": "Bahij Nassim", "fs_h": 9.7222, "out_h": 0.2778, "shd_h": 0.0185, "mv_h": 3.2407, "ml_w": 1.0417, "mr_w": 1.0417, "sx": 95, "sy": 100, "an": 2, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H0F7F2F14", "back_c": "&H007F2F14"},
                     "Narrator": {"font": "AlHurraTxtreg", "fs_h": 10.1852, "out_h": 0.2346, "shd_h": 0.1481, "mv_h": 2.7778, "ml_w": 10.3125, "mr_w": 10.3125, "sx": 95, "sy": 100, "an": 2, "bold": -1, "pri": "&H00E7FCFF", "out_c": "&H001A3F5A", "back_c": "&H641A3F5A"},
                     "Narrator - Top": {"font": "AlHurraTxtreg", "fs_h": 10.1852, "out_h": 0.2346, "shd_h": 0.1481, "mv_h": 2.7778, "ml_w": 10.3125, "mr_w": 10.3125, "sx": 95, "sy": 100, "an": 8, "bold": -1, "pri": "&H00E7FCFF", "out_c": "&H001A3F5A", "back_c": "&H641A3F5A"},
-                    "Note": {"font": "Bahij Nassim", "fs_h": 6.9444, "out_h": 0.1389, "shd_h": 0.0, "mv_h": 1.3889, "ml_w": 0.7812, "mr_w": 0.7812, "sx": 100, "sy": 100, "an": 8, "bold": 0, "pri": "&H00E3F7F9", "out_c": "&HD3000000", "back_c": "&H00000000"},
-                    "Signs": {"font": "SC_REHAN", "fs_h": 7.4074, "out_h": 0.0, "shd_h": 0.0, "mv_h": 5.5556, "ml_w": 1.5625, "mr_w": 1.5625, "sx": 100, "sy": 100, "an": 2, "bold": -1, "pri": "&H00E5E5E3", "out_c": "&H00959596", "back_c": "&H00000000"},
+                    "Note": {"font": "Bahij Nassim", "fs_h": 6.9444, "out_h": 0.3704, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 8, "bold": 0, "pri": "&H00FFFFFF", "out_c": "&H58494949", "back_c": "&H64101010"},
+                    "Signs": {"font": "Arial", "fs_h": 4.6296, "out_h": 0.0, "shd_h": 0.0, "mv_h": 0.0, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 5, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H00000000"},
                     "Attack": {"font": "Bahij SultanNahia", "fs_h": 12.037, "out_h": 0.2469, "shd_h": 0.0247, "mv_h": 1.3889, "ml_w": 0.6771, "mr_w": 0.6771, "sx": 100, "sy": 100, "an": 2, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H32000000", "back_c": "&HB4F2FFFD"},
-                    "Rights": {"font": "Hayah", "fs_h": 7.4074, "out_h": 0.0926, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 1.0417, "mr_w": 1.0417, "sx": 100, "sy": 100, "an": 9, "bold": 0, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H00322F2A"},
+                    "Rights": {"font": "Bahij Tanseek Pro", "fs_h": 6.4815, "out_h": 0.3704, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 1.0417, "mr_w": 1.0417, "sx": 100, "sy": 100, "an": 9, "bold": -1, "pri": "&H00FFF8F7", "out_c": "&H00260ABC", "back_c": "&H00322F2A"},
                     "OP-Ara": {"font": "SC_REHAN", "fs_h": 8.3333, "out_h": 0.2037, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 2, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H7F404040"},
                     "OP-Rom": {"font": "Berylium", "fs_h": 8.3333, "out_h": 0.2037, "shd_h": 0.0, "mv_h": 0.9259, "ml_w": 1.5625, "mr_w": 1.5625, "sx": 100, "sy": 100, "an": 8, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H7F404040"},
                     "ED-Ara": {"font": "Arabetics Harfi Regular", "fs_h": 8.7963, "out_h": 0.2037, "shd_h": 0.0, "mv_h": 1.8519, "ml_w": 0.0, "mr_w": 0.0, "sx": 100, "sy": 100, "an": 2, "bold": -1, "pri": "&H00FFFFFF", "out_c": "&H00000000", "back_c": "&H7F404040"},
@@ -477,6 +478,10 @@ def _classify_style(orig_style: str, orig_actor: str, raw_text: str) -> Tuple[st
         return "Attack", False
     if any(k in s for k in ("sign", "title", "caption", "screen", "board")) or "sign" in a or "\\pos(" in raw_text or "\\move(" in raw_text:
         return "Signs", False
+    if "right" in s or "credit" in s:
+        return "Rights", False
+    if "blue" in s:
+        return "Main (Blue)", False
     if "top" in s or "overlap" in s or "\\an8" in raw_text:
         return "Top", False
     return "Main", False
@@ -536,7 +541,7 @@ def _call_llm_json(
     base_url: str,
     log_cb: Optional[Callable[[str], None]] = None,
 ) -> Dict:
-    """Unified LLM JSON caller with DeepSeek primary -> deepseek-v4-pro fallback chain."""
+    """Unified LLM JSON caller with DeepSeek primary -> deepseek-chat fallback chain."""
     prov = (provider or "deepseek").lower()
     key = api_key.strip()
     if not key and "local" not in prov:
@@ -547,7 +552,7 @@ def _call_llm_json(
     elif "deepseek" in prov or "deepseek" in (base_url or "").lower() or "deepseek" in (model_name or "").lower():
         primary = model_name.strip() or "deepseek-flash"
         candidates = []
-        for m in (primary, "deepseek-v4-pro", "deepseek-chat"):
+        for m in (primary, "deepseek-chat"):
             if m and m not in candidates:
                 candidates.append(m)
         if not base_url.strip():
@@ -769,67 +774,6 @@ def load_or_extract_series_glossary(
             log_cb(f"⚠️ تم تخطي تحديث القاموس التلقائي: {exc}")
 
     return existing
-
-
-def translate_detected_signs(
-    signs: List[Dict],
-    entries: List[SubEntry],
-    series_name: str,
-    glossary: Optional[Dict],
-    provider: str,
-    api_key: str,
-    model_name: str,
-    base_url: str,
-    log_cb: Optional[Callable[[str], None]] = None,
-) -> List[Dict]:
-    """Translate OCR-detected Japanese screen signs with scene dialogue context."""
-    if not signs:
-        return signs
-
-    payload_items = []
-    for sg in signs:
-        st_ms, en_ms = sg["start_ms"], sg["end_ms"]
-        nearby = [
-            e.plain_text
-            for e in entries
-            if abs(e.start_ms - st_ms) <= 6000 and not e.keep_untranslated
-        ][:4]
-        payload_items.append(
-            {
-                "id": str(sg["id"]),
-                "jp_sign": sg["jp_text"],
-                "nearby_dialogue": nearby,
-            }
-        )
-
-    glossary_hint = json.dumps(glossary or {}, ensure_ascii=False) if glossary else "{}"
-    sys_p = f"""أنت مختص محاكاة وتنضيد لافتات أنمي (Typesetter) لفريق Celestial-Dragons.
-ترجم اللافتات اليابانية الملتقطة من الشاشة للأنمي «{series_name or 'عام'}» إلى عناوين عربية فصيحة ومكثفة جداً (كلمة إلى 4 كلمات كحد أقصى لتناسب مساحة اللافتة الممسوحة على الشاشة بدون أي علامات ترقيم زائدة).
-استعن بالحوار المحيط والقاموس المرفق لفهم السياق بدقة:
-{glossary_hint}
-أرجع كائن JSON فقط يربط كل "id" بالنص العربي الموجز للافتة."""
-
-    try:
-        if log_cb:
-            log_cb(f"🎌 ترجمة {len(signs)} لافتة يابانية مكتشفة عبر الذكاء الاصطناعي...")
-        res = _call_llm_json(
-            sys_p,
-            json.dumps(payload_items, ensure_ascii=False),
-            provider=provider,
-            api_key=api_key,
-            model_name=model_name,
-            base_url=base_url,
-            log_cb=log_cb,
-        )
-        for sg in signs:
-            ar_val = str(res.get(str(sg["id"]), "") or "").strip()
-            if ar_val:
-                sg["ar_text"] = ar_val
-    except Exception as exc:
-        if log_cb:
-            log_cb(f"⚠️ تعذر ترجمة بعض اللافتات تلقائياً (يمكنك كتابتها في جدول المراجعة): {exc}")
-
-    return signs
 
 
 _MAX_LINE_CHARS = 38  # عرف الفانسب: ~40 حرفاً عربياً للسطر المرئي الواحد (خط Bahij Nassim عريض)
@@ -1083,17 +1027,6 @@ def _ms_to_ass_time(ms: int) -> str:
     return f"{ms // 3600000}:{(ms // 60000) % 60:02d}:{(ms // 1000) % 60:02d}.{(ms // 10) % 100:02d}"
 
 
-def _hex_to_ass_bgr(hex_color: str, default: str = "&HFFFFFF&") -> str:
-    c = (hex_color or "").strip()
-    if c.upper().startswith("&H"):
-        return c if c.endswith("&") else f"{c}&"
-    c = c.lstrip("#")
-    if len(c) == 6 and re.fullmatch(r"[0-9A-Fa-f]{6}", c):
-        rr, gg, bb = c[0:2].upper(), c[2:4].upper(), c[4:6].upper()
-        return f"&H{bb}{gg}{rr}&"
-    return default
-
-
 def _remap_ass_tags_to_resolution(tags: str, src_w: int, src_h: int, dst_w: int, dst_h: int) -> str:
     if not tags:
         return ""
@@ -1185,7 +1118,6 @@ def write_responsive_ass(
     target_w: int = 1920,
     target_h: int = 1080,
     style_preset: str = "bleach_style",
-    approved_visual_signs: Optional[List[Dict]] = None,
     credits: Optional[Dict[str, str]] = None,
     wrap_mode: str = "sequential",
     soften_exclaim: bool = True,
@@ -1199,13 +1131,7 @@ def write_responsive_ass(
     bottom_zone_pct = float(geom.get("bottom_collision_y_pct", 60.0))
     mv_overrides = preset_cfg.get("event_margin_v_overrides_h_pct") or {}
 
-    visual_signs = [s for s in (approved_visual_signs or []) if s.get("enabled", True) and str(s.get("ar_text", "")).strip()]
-
     bottom_sign_intervals: List[Tuple[int, int]] = []
-    for vs in visual_signs:
-        if float(vs.get("cy_pct", 50.0)) >= bottom_zone_pct:
-            bottom_sign_intervals.append((int(vs["start_ms"]), int(vs["end_ms"])))
-
     for ev in entries:
         if ev.target_style == "Signs":
             yp = _extract_sign_y_pct(ev)
@@ -1216,18 +1142,6 @@ def write_responsive_ass(
     active_bottom_dialogue_end = -1
 
     for entry in entries:
-        if entry.target_style == "Signs" and visual_signs:
-            dup = False
-            for vs in visual_signs:
-                ov = min(entry.end_ms, int(vs["end_ms"])) - max(entry.start_ms, int(vs["start_ms"]))
-                if ov >= 250:
-                    yp = _extract_sign_y_pct(entry)
-                    if yp is None or abs(yp - float(vs.get("cy_pct", 50.0))) <= 18.0:
-                        dup = True
-                        break
-            if dup:
-                continue
-
         raw_final = entry.plain_text if entry.keep_untranslated else translations.get(entry.index, entry.plain_text)
         if preserve_wording:
             seq_segs = None
@@ -1238,7 +1152,7 @@ def write_responsive_ass(
             if (
                 wrap_mode == "sequential"
                 and not entry.keep_untranslated
-                and entry.target_style in ("Main", "Top", "Narrator", "Narrator - Top")
+                and entry.target_style in ("Main", "Top", "Main (Blue)", "Narrator", "Narrator - Top")
                 and (entry.end_ms - entry.start_ms) >= 1700
             ):
                 _cand = _enforce_celestial_punctuation(
@@ -1288,12 +1202,11 @@ def write_responsive_ass(
                 entry.preserved_tags, entry.src_playres_x, entry.src_playres_y, target_w, target_h
             )
             blur_px = max(1.0, round(target_h * 0.0018, 1))
-            bord_px = max(1.0, round(target_h * 0.0015, 1))
-            # المترجم يستخدم SC_REHAN لكل اللافتات (بدون إطار)؛ AFSANEH لعناوين الحلقات فقط
+            # اللافتات في الستايل الجديد بخط Arial (بدون إطار)؛ AFSANEH لعناوين الحلقات فقط
             if "title" in entry.actor.lower() or "episode" in entry.actor.lower():
                 f_tag = f"\\fnAFSANEH_v2 KHWF\\blur{blur_px}"
             else:
-                f_tag = f"\\fn{_safe_font('SC_REHAN')}\\blur{blur_px}"
+                f_tag = f"\\fn{_safe_font('Arial')}\\blur{blur_px}"
             formatted = f"{{{f_tag}{scaled_tags}}}{final_text}"
         else:
             formatted = final_text
@@ -1326,41 +1239,6 @@ def write_responsive_ass(
                 f"Dialogue: {layer},{_ms_to_ass_time(entry.start_ms)},{_ms_to_ass_time(entry.end_ms)},"
                 f"{eff_style},{entry.actor},0,0,{ev_mv},,{formatted}"
             )
-
-    for vs in visual_signs:
-        ar_sign = str(vs["ar_text"]).strip()
-        cx = round(target_w * float(vs.get("cx_pct", 50.0)) / 100.0, 1)
-        cy = round(target_h * float(vs.get("cy_pct", 50.0)) / 100.0, 1)
-        box_h_px = max(22.0, target_h * float(vs.get("h_pct", 6.0)) / 100.0)
-        box_w_px = max(60.0, target_w * float(vs.get("w_pct", 25.0)) / 100.0)
-
-        est_fs_by_h = box_h_px * 1.08
-        est_fs_by_w = (box_w_px / max(3.5, len(ar_sign) * 0.52)) * 1.15
-        sign_fs = round(max(target_h * 0.032, min(est_fs_by_h, est_fs_by_w, target_h * 0.145)), 1)
-
-        c_fill = _hex_to_ass_bgr(vs.get("fill_hex", "#FFFFFF"), "&HFFFFFF&")
-        c_out = _hex_to_ass_bgr(vs.get("outline_hex", "#000000"), "&H000000&")
-        bord_px = round(max(1.2, sign_fs * 0.045), 2)
-        blur_px = round(max(0.8, target_h * 0.0014), 2)
-        fad_tag = "\\fad(180,180)" if vs.get("has_fade", False) else ""
-        ang = float(vs.get("angle_deg", 0.0) or 0.0)
-        frz_tag = f"\\frz{-ang:.1f}" if abs(ang) >= 2.0 else ""
-
-        if float(vs.get("h_pct", 6.0)) >= 8.0:
-            sign_font = "AFSANEH_v2 KHWF"
-        elif any(k in ar_sign for k in ("مملكة", "قصر", "قرية", "مدينة", "غابة", "قاعدة", "طابق")):
-            sign_font = "BKR Shahd Extra Bold"
-        else:
-            sign_font = "BKR Shahd Extra Bold" if len(ar_sign) <= 14 else _safe_font("SC_REHAN")
-
-        vs_txt = (
-            f"{{\\an5\\pos({cx},{cy})\\fn{sign_font}\\fs{sign_fs}"
-            f"\\c{c_fill}\\3c{c_out}\\bord{bord_px}\\blur{blur_px}{frz_tag}{fad_tag}}}{ar_sign}"
-        )
-        lines.append(
-            f"Dialogue: 1,{_ms_to_ass_time(int(vs['start_ms']))},{_ms_to_ass_time(int(vs['end_ms']))},"
-            f"Signs,VisualInpaint,0,0,0,,{vs_txt}"
-        )
 
     if credits:
         slots = [
