@@ -599,8 +599,8 @@ def burn_and_compress_native(
     audio_bitrate: str = "160k",
     logo_path: str = "",
     logo_position: str = "top-right",
-    logo_opacity: float = 0.30,
-    logo_scale: float = 0.12,
+    logo_opacity: float = 0.47,
+    logo_scale: float = 0.115,
     log_cb: Optional[Callable[[str], None]] = None,
     progress_cb: Optional[ProgressCallback] = None,
 ) -> str:
@@ -686,10 +686,11 @@ def burn_and_compress_native(
         op = min(1.0, max(0.05, float(logo_opacity)))
         sc = min(0.5, max(0.03, float(logo_scale)))
         logo_w = max(16, round(vw_ * sc)) if vw_ > 0 else 160
-        margin = max(8, round(vw_ * 0.018)) if vw_ > 0 else 24
+        x_margin = max(8, round(vw_ * 0.0125)) if vw_ > 0 else 24
+        y_margin = max(8, round(vh_ * 0.061)) if vh_ > 0 else 66
         pos = (logo_position or "top-right").strip().lower()
-        x_expr = str(margin) if "left" in pos else f"W-w-{margin}"
-        y_expr = str(margin) if "top" in pos else f"H-h-{margin}"
+        x_expr = str(x_margin) if "left" in pos else f"W-w-{x_margin}"
+        y_expr = str(y_margin) if "top" in pos else f"H-h-{y_margin}"
         fc = (
             f"[1:v]format=rgba,scale={logo_w}:-1,colorchannelmixer=aa={op:.2f}[logo];"
             f"[0:v][logo]overlay={x_expr}:{y_expr}[vt];"
@@ -814,7 +815,7 @@ def burn_then_optional_compress(
     codec: str = "h264_nvenc", cq: int = 23, preset: str = "p6",
     x265_preset: str = "slow", audio_bitrate: str = "160k",
     logo_path: str = "", logo_position: str = "top-right",
-    logo_opacity: float = 0.30, logo_scale: float = 0.12,
+    logo_opacity: float = 0.47, logo_scale: float = 0.115,
     log_cb=None, progress_cb=None, compress_after: bool = False,
 ) -> str:
     """Always burn first at quality 16; optionally encode a separate smaller delivery.
